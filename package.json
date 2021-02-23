@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
   "devDependencies": {
     "@cucumber/cucumber": "^7.0.0",
     "chromedriver": "^88.0.0",
